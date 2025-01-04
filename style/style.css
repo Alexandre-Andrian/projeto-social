@@ -57,12 +57,13 @@ img:hover{
     box-shadow: 5px 5px 10px black;
     transition: .3s ;
 }
-@media (max-width: 768px) {
-    .icon {
+@media (max-width: 668px) {
+    a {
         margin: 15px;
     }
 
-    .phone-container {
-        padding: 10px;
+    #telefone {
+        margin: -13px;
+        
     }
 }
