@@ -1,14 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style/soci al.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Estilizado</title>
+  <style>
+    /* Estilização geral do menu */
+    *{
+        margin: 0;
+    }
+    .menu {
+      display: flex;
+      align-items: center;
+      
+      background-color: #002f77; /* Azul do fundo */
+      padding: 28px 20px;
+      color: white; /* Cor do texto principal */
+      font-family: Arial, sans-serif;
+    }
+
+    /* Título do menu */
+    .menu-title {
+      font-size: 25px;
+      font-weight: bold;
+      padding-left: 60px;
+      font-weight: 400;
+      
+    }
+
+    /* Estilização dos botões */
+    .menu-buttons {
+      display: flex;
+      gap: 7px; /* Espaçamento entre os botões */
+    }
+
+    .menu-buttons button {
+      background-color: white; /* Fundo branco */
+      color: #002f77; /* Texto azul */
+      border: none;
+      border-radius: 20px; /* Borda arredondada */
+      padding: 10px 15px; /* Espaçamento interno */
+      font-size: 16px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s ease; /* Efeito de transição */
+    }
+
+    /* Efeito de hover nos botões */
+    .menu-buttons button:hover {
+      background-color: #d3d3d3; /* Fundo cinza claro ao passar o mouse */
+    }
+  </style>
+  <link rel="stylesheet" href="style/social.css">
 </head>
 <body>
-    <img src="imagens/tela-twitter.jpg" alt="twitter">
-    <a href="www.google.com " target="_blank"></a>
+  <div class="menu">  
+  <div class="menu-title">Superman & Lois</div>
+    <div class="menu-buttons"> <span></span> <span></span><span></span> <span></span><span></span> <span></span><span></span> <span></span><span></span> <span></span><span></span> <span></span><span></span> <span></span>
+      <button>Sinopse</button> <span><span><span><span><span><span><span><span></span></span></span></span></span></span></span></span><span><span><span> <span> <span><span><span><span><span><span><span><span></span></span></span></span></span></span></span></span></span></span></span></span>
+      <button>Disponibilidade</button>
+    </div>
+  </div>
 </body>
 </html>

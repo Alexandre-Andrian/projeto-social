@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barra de Rolagem Horizontal</title>
+  <style>
+    *{
+        text-align: center;
+    }
+    /* Estilização do contêiner principal */
+    .scroll-container {
+      display: flex; /* Coloca os itens lado a lado */
+      overflow-x: auto; /* Adiciona a barra de rolagem horizontal */
+      white-space: nowrap; /* Evita quebra de linha */
+      padding: 10px;
+      border: 1px solid #ddd; /* Borda como exemplo */
+    }
+
+    /* Estilização das imagens */
+    .scroll-container img {
+      width: 300px; /* Tamanho das imagens */
+      height: auto; /* Mantém a proporção */
+      margin-right: 10px; /* Espaçamento entre as imagens */
+      object-fit: cover; /* Ajusta o conteúdo dentro do espaço */
+    }
+  </style>
+</head>
+<body>
+  <div class="scroll-container">
+    <img src="imagens/logo-facebook.jpg" alt="Imagem 1">
+    <img src="imagens/logo-github.jpg" alt="Imagem 2">
+    <img src="imagens/logo-home.jpg" alt="Imagem 3">
+    <img src="imagens/logo-youtube.jpg" alt="Imagem 4">
+  </div>
+</body>
+</html>
